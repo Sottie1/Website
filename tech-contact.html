@@ -515,8 +515,10 @@
                                 <hr class="invis">
 
                                 <div class="newsletter-widget text-left">
-                                    <form class="form-inline">
-                                        <input type="text" class="form-control" placeholder="Enter your email address">
+                                    <form class="form-inline" name="contact" method="post" data-netlify="true" onsubmit="submit"
+                                    
+                                    >
+                                        <input type="text" class="form-control" placeholder="Enter your email address" name="email">
                                         <button type="submit" class="btn btn-primary">SUBMIT</button>
                                     </form>
                                 </div><!-- end newsletter -->
